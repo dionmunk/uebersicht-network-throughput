@@ -1,6 +1,6 @@
 {
   "name": "Network Throughput Monitor",
-  "description": "A simple network throughput monitor.",
+  "description": "A network throughput monitor summing upload and download rates across all active interfaces, with a live bar.",
   "author": "Dion Munk",
   "email": "dion@dionmunk.com"
 }

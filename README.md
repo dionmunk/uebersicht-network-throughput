@@ -2,16 +2,15 @@
 
 [![Creative Commons](https://flat.badgen.net/badge/license/CC-BY-NC-4.0/orange)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-A simple Network Throughput widget for [Übersicht](http://tracesof.net/uebersicht) using the colors from [Monokai Faded](https://dionmunk.com/projects/monokai-faded/). The widget takes all of your available network connections and adds their upload and download speeds together and gives you a readout.
+A network throughput widget for [Übersicht](http://tracesof.net/uebersicht). It sums the upload and download rates across all of your active network interfaces and shows them as a live readout with a bar. Colors are theme-aware, with sensible built-in defaults, so the widget works on its own.
 
 ## Screenshot
 
 ![Screenshot](screenshots/screenshot.png)
 
-
 ## Installation
 
-- Download the [repository](https://github.com/dionmunk/ubersicht-network-throughput/archive/master.zip) and extract it.
+- Download the [repository](https://github.com/dionmunk/uebersicht-network-throughput/archive/master.zip) and extract it.
 - Place the `network-throughput.widget` folder in your Übersicht extension folder.
 - Refresh Übersicht.
 
