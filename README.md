@@ -14,6 +14,10 @@ A network throughput widget for [Übersicht](http://tracesof.net/uebersicht). It
 - Place the `network-throughput.widget` folder in your Übersicht extension folder.
 - Refresh Übersicht.
 
+## Theming
+
+This widget is theme-aware. Its colors come from CSS custom properties (text, panel tint, status and series colors) with sensible built-in fallbacks, so it looks right on its own. Install the [Theme Controller](https://github.com/dionmunk/uebersicht-theme-controller) widget and this one automatically follows its color scheme and light/dark mode, staying in sync with the rest of the collection.
+
 ## License
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
