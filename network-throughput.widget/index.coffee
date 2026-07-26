@@ -17,7 +17,7 @@ style: """
   left 10px
 
   color var(--text, #fff)
-  text-shadow: 0 1px 1px rgba(20, 1, 1, 0.10)   // inherits to all text elements
+  text-shadow: 0 1px 1px rgba(20, 1, 1, 0.2)   // inherits to all text elements
   font-family -apple-system, BlinkMacSystemFont, system-ui, sans-serif
   display: flex
   gap: 10px
@@ -110,7 +110,7 @@ style: """
 
   .bar-up
     z-index: 1
-    background: var(--apple-blue, rgba(#fff, .5))
+    background: var(--blue, rgba(#fff, .5))
 
   .bar-down
     z-index: 2
@@ -163,21 +163,21 @@ style: """
 
   .line-up
     fill: none
-    stroke: var(--apple-blue, rgba(#fff, .5))
+    stroke: var(--blue, rgba(#fff, .5))
     stroke-width: 1.5
     vector-effect: non-scaling-stroke
     stroke-linejoin: round
     stroke-linecap: round
 
   .area-up
-    fill: var(--apple-blue-fill, rgba(#fff, .15))
+    fill: var(--blue-fill, rgba(#fff, .15))
     stroke: none
 
   .peak-arrow-down
     color: var(--series-primary, rgba(#fff, 1))
 
   .peak-arrow-up
-    color: var(--apple-blue, rgba(#fff, .5))
+    color: var(--blue, rgba(#fff, .5))
 """
 
 render: -> """
