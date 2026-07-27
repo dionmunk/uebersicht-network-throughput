@@ -2,6 +2,9 @@ command: """
     netstat -ibn | awk '$3 ~ /^<Link/ && $1 !~ /^lo/ {ib += $7; ob += $10} END {print ib "^" ob}'
 """
 
+# Enable or disable this widget.
+widgetEnabled: true   # true | false
+
 refreshFrequency: '1s'
 
 # Toggle the graph panel on/off without removing the widget
@@ -217,6 +220,11 @@ render: -> """
 """
 
 update: (output, domEl) ->
+  # Hide entirely when disabled.
+  if not @widgetEnabled
+    $(domEl).css('display', 'none')
+    return
+  $(domEl).css('display', '')
   usage = (bytes) ->
     kb = bytes / 1024
     usageFormat kb
